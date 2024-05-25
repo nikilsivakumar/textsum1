@@ -21,3 +21,162 @@
 [2024-05-25 10:35:09,109: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2024-05-25 11:42:15,318: INFO: config: PyTorch version 2.3.0+cu121 available.]
+[2024-05-25 11:42:15,322: INFO: config: TensorFlow version 2.16.1 available.]
+[2024-05-25 11:47:24,937: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 11:47:24,949: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 11:47:24,952: INFO: common: created directory at artifacts]
+[2024-05-25 11:47:32,781: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 11:47:32,788: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 11:47:32,793: INFO: common: created directory at artifacts]
+[2024-05-25 11:47:32,797: INFO: common: created directory at artifacts/data_transformation]
+[2024-05-25 11:47:48,662: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 11:47:48,664: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 11:47:48,665: INFO: common: created directory at artifacts]
+[2024-05-25 11:47:48,667: INFO: common: created directory at artifacts/data_transformation]
+[2024-05-25 11:48:09,073: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 11:48:09,078: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 11:48:09,082: INFO: common: created directory at artifacts]
+[2024-05-25 11:48:09,086: INFO: common: created directory at artifacts/data_transformation]
+[2024-05-25 11:48:25,740: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 11:48:25,746: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 11:48:25,749: INFO: common: created directory at artifacts]
+[2024-05-25 11:48:25,753: INFO: common: created directory at artifacts/data_transformation]
+[2024-05-25 11:48:41,791: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 11:48:41,798: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 11:48:41,802: INFO: common: created directory at artifacts]
+[2024-05-25 11:48:41,807: INFO: common: created directory at artifacts/data_transformation]
+[2024-05-25 11:50:06,854: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 11:50:06,858: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 11:50:06,860: INFO: common: created directory at artifacts]
+[2024-05-25 11:50:06,863: INFO: common: created directory at artifacts/data_transformation]
+[2024-05-25 12:11:06,842: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 12:11:06,845: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 12:11:06,847: INFO: common: created directory at artifacts]
+[2024-05-25 12:11:06,849: INFO: common: created directory at artifacts/data_transformation]
+[2024-05-25 12:28:21,342: INFO: config: PyTorch version 2.3.0+cu121 available.]
+[2024-05-25 12:28:21,345: INFO: config: TensorFlow version 2.16.1 available.]
+[2024-05-25 12:28:25,134: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-25 12:28:25,136: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 12:28:25,136: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 12:28:25,137: INFO: common: created directory at artifacts]
+[2024-05-25 12:28:25,137: INFO: common: created directory at artifacts/data_ingestion]
+[2024-05-25 12:28:25,137: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-25 12:28:25,137: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-25 12:28:25,139: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 12:28:25,139: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 12:28:25,140: INFO: common: created directory at artifacts]
+[2024-05-25 12:28:25,140: INFO: common: created directory at artifacts/data_transformation]
+[2024-05-25 12:28:27,271: ERROR: main: cannot access local variable 'dataset' where it is not associated with a value]
+Traceback (most recent call last):
+  File "C:\Users\nikil\Documents\Project\NLP Projects\textsum1\main.py", line 19, in <module>
+    data_transformation.main()
+  File "C:\Users\nikil\Documents\Project\NLP Projects\textsum1\src\nlp\pipeline\stage_03_data_transformation.py", line 14, in main
+    data_transformation.convert()
+  File "C:\Users\nikil\Documents\Project\NLP Projects\textsum1\src\nlp\components\data_transformation.py", line 45, in convert
+    dataset = dataset
+              ^^^^^^^
+UnboundLocalError: cannot access local variable 'dataset' where it is not associated with a value
+[2024-05-25 12:30:17,558: INFO: config: PyTorch version 2.3.0+cu121 available.]
+[2024-05-25 12:30:17,560: INFO: config: TensorFlow version 2.16.1 available.]
+[2024-05-25 12:30:20,506: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-25 12:30:20,508: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 12:30:20,509: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 12:30:20,510: INFO: common: created directory at artifacts]
+[2024-05-25 12:30:20,510: INFO: common: created directory at artifacts/data_ingestion]
+[2024-05-25 12:30:20,510: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-25 12:30:20,510: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-25 12:30:20,511: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 12:30:20,512: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 12:30:20,513: INFO: common: created directory at artifacts]
+[2024-05-25 12:30:20,513: INFO: common: created directory at artifacts/data_transformation]
+[2024-05-25 12:30:22,154: ERROR: main: DataTransformation.convert() missing 1 required positional argument: 'dataset']
+Traceback (most recent call last):
+  File "C:\Users\nikil\Documents\Project\NLP Projects\textsum1\main.py", line 19, in <module>
+    data_transformation.main()
+  File "C:\Users\nikil\Documents\Project\NLP Projects\textsum1\src\nlp\pipeline\stage_03_data_transformation.py", line 14, in main
+    data_transformation.convert()
+TypeError: DataTransformation.convert() missing 1 required positional argument: 'dataset'
+[2024-05-25 12:35:42,318: INFO: config: PyTorch version 2.3.0+cu121 available.]
+[2024-05-25 12:35:42,319: INFO: config: TensorFlow version 2.16.1 available.]
+[2024-05-25 12:35:45,189: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-25 12:35:45,192: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 12:35:45,192: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 12:35:45,193: INFO: common: created directory at artifacts]
+[2024-05-25 12:35:45,193: INFO: common: created directory at artifacts/data_ingestion]
+[2024-05-25 12:35:45,193: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-25 12:35:45,193: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-25 12:35:45,194: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 12:35:45,195: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 12:35:45,195: INFO: common: created directory at artifacts]
+[2024-05-25 12:35:45,195: INFO: common: created directory at artifacts/data_transformation]
+[2024-05-25 12:35:47,521: ERROR: main: name 'dataset' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\nikil\Documents\Project\NLP Projects\textsum1\main.py", line 19, in <module>
+    data_transformation.main()
+  File "C:\Users\nikil\Documents\Project\NLP Projects\textsum1\src\nlp\pipeline\stage_03_data_transformation.py", line 14, in main
+    data_transformation.convert(dataset)
+                                ^^^^^^^
+NameError: name 'dataset' is not defined
+[2024-05-25 12:38:32,367: INFO: config: PyTorch version 2.3.0+cu121 available.]
+[2024-05-25 12:38:32,369: INFO: config: TensorFlow version 2.16.1 available.]
+[2024-05-25 12:38:35,680: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-25 12:38:35,682: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 12:38:35,682: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 12:38:35,683: INFO: common: created directory at artifacts]
+[2024-05-25 12:38:35,683: INFO: common: created directory at artifacts/data_ingestion]
+[2024-05-25 12:38:35,683: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-25 12:38:35,685: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-25 12:38:35,686: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 12:38:35,686: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 12:38:35,687: INFO: common: created directory at artifacts]
+[2024-05-25 12:38:35,688: INFO: common: created directory at artifacts/data_transformation]
+[2024-05-25 12:38:38,370: ERROR: main: DataTransformation.convert() missing 1 required positional argument: 'dataset']
+Traceback (most recent call last):
+  File "C:\Users\nikil\Documents\Project\NLP Projects\textsum1\main.py", line 19, in <module>
+    data_transformation.main()
+  File "C:\Users\nikil\Documents\Project\NLP Projects\textsum1\src\nlp\pipeline\stage_03_data_transformation.py", line 14, in main
+    data_transformation.convert()
+TypeError: DataTransformation.convert() missing 1 required positional argument: 'dataset'
+[2024-05-25 12:39:40,980: INFO: config: PyTorch version 2.3.0+cu121 available.]
+[2024-05-25 12:39:40,981: INFO: config: TensorFlow version 2.16.1 available.]
+[2024-05-25 12:39:44,182: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-25 12:39:44,189: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 12:39:44,191: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 12:39:44,193: INFO: common: created directory at artifacts]
+[2024-05-25 12:39:44,194: INFO: common: created directory at artifacts/data_ingestion]
+[2024-05-25 12:39:44,195: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-25 12:39:44,197: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-25 12:39:44,198: ERROR: main: DataTransformationTrainingPipeline.main() missing 1 required positional argument: 'dataset']
+Traceback (most recent call last):
+  File "C:\Users\nikil\Documents\Project\NLP Projects\textsum1\main.py", line 19, in <module>
+    data_transformation.main()
+TypeError: DataTransformationTrainingPipeline.main() missing 1 required positional argument: 'dataset'
+[2024-05-25 12:42:45,196: INFO: config: PyTorch version 2.3.0+cu121 available.]
+[2024-05-25 12:42:45,199: INFO: config: TensorFlow version 2.16.1 available.]
+[2024-05-25 12:42:48,657: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-25 12:42:48,664: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 12:42:48,667: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 12:42:48,669: INFO: common: created directory at artifacts]
+[2024-05-25 12:42:48,670: INFO: common: created directory at artifacts/data_ingestion]
+[2024-05-25 12:42:48,671: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-25 12:42:48,672: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-25 12:42:48,679: INFO: common: yaml file loaded from config\config.yaml]
+[2024-05-25 12:42:48,681: INFO: common: yaml file loaded from params.yaml]
+[2024-05-25 12:42:48,683: INFO: common: created directory at artifacts]
+[2024-05-25 12:42:48,684: INFO: common: created directory at artifacts/data_transformation]
+[2024-05-25 12:49:42,043: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
