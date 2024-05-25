@@ -17,4 +17,4 @@ logging.basicConfig(
     ]
 )
 
-logger = logging.getLogger("textsum")
+logger = logging.getLogger("nlp")
